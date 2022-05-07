@@ -33,11 +33,11 @@ function Veggie() {
 
       <Splide
         options={{
-          perPage: 4,
+          perPage: 3,
           arrows: false,
           pagination: false,
           drag: "free",
-          gap: "5rem",
+          gap: "3rem",
         }}
       >
         {veggie.map((recipe) => {
